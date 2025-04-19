@@ -10,7 +10,7 @@ const firstStringArray = ["Don't count your chickens ", "It's not over ", "We'll
 const secondStringArray = ["until ", "until ", "when ", "like ", "as ", "before ", "while ", "but ", "then ", "and ", "who ", "or ", "as "];
 
 const thirdStringArray = ["they are hatched.", "the fat lady sings.", "we get to it.", "it's nineteen ninety nine.", "it's raining cats and dogs.", "it has it's dawn.", "the sun shines.", 
-  "You can't make it drink from it.", "you can catch with vinegar.", "into the frying pan.", "blames his tools.", "that ship has sailed.", "ship out.", "we see eye to eye.", "twice shy.", "on cloud nine.",
+  "you can't make it drink from it.", "you can catch with vinegar.", "it's into the frying pan.", "blames his tools.", "that ship has sailed.", "ship out.", "we see eye to eye.", "twice shy.", "on cloud nine.",
   "no stone is unturned.", "you get a taste of your own medicine.", "you would have them do to you.", "it's a piece of cake.", "you go on a wild goose chase.", "you live and learn.",
   "the ball is in your court.", "you spill the beans.", "rain on someone's parade.", "you throw caution to the wind."
 ];
