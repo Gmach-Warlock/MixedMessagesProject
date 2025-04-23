@@ -60,7 +60,7 @@ h1 {
 
 .card {
   background-color: white;
-  width: 60%;
+  width: 65%;
   height: 35rem;
   border-radius: 4px;
   box-shadow: 3px 6px 1px black;
@@ -73,13 +73,13 @@ h1 {
 
 @media only screen and (min-width: 600px) and (max-width: 1096px) {
   h1 {
-    font-size: 4.2rem;
+
   }
   body {
     font-size: 2.2rem;
   }
   .card {
-    width: 70%;
+    width: 75%;
     height: 38rem;
   }
 }
@@ -93,6 +93,7 @@ h1 {
   }
   .card {
     height: 40rem;
-    width: 80%
+    width: 85%;
+    color: ;
   }
 }

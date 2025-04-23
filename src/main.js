@@ -34,7 +34,7 @@ console.log(firstString.innerHTML + secondString.innerHTML + thirdString.innerHT
 
 // create a set of background colors to use in a color changing function
 
-const colorArray = ['black', 'white', 'gray', 'green', 'yellow', 'blue', 'darkslategrey', 'darkgray', 'burlywood', 'darksalmon'];
+const colorArray = ['black', 'white', 'gray', 'green', 'yellow', 'blue', 'darkslategrey', 'darkgray', 'burlywood', 'darksalmon', 'peachpuff', 'peru', 'tomato', 'brown', 'mediumseashell', 'navy'];
 
 const body = document.querySelector('body');
 body.style.backgroundColor = colorArray[Math.floor(Math.random() * colorArray.length)];
