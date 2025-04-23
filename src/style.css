@@ -29,7 +29,7 @@ body {
   color: var(--color-700);
   font-family: var(--ff-second);
   padding-block: 4rem;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-shadow: 1.px 1.px 1px black;
 
   height: 100vw;
@@ -45,7 +45,7 @@ h1 {
 
 .wrapper {
   margin-inline: auto;
-  padding-inline: 4rem;
+  padding-inline: 2rem;
   flex-wrap: wrap;
   align-content: center;
   height: 50%;
@@ -71,3 +71,28 @@ h1 {
   height: 100%;
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1096px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  body {
+    font-size: 2.2rem;
+  }
+  .card {
+    width: 70%;
+    height: 38rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+  body {
+    font-size: 2.1rem;
+  }
+  .card {
+    height: 40rem;
+    width: 80%
+  }
+}

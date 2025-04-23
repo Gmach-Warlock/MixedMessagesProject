@@ -3,16 +3,17 @@
 const firstStringArray = ["Don't count your chickens ", "It's not over ", "We'll cross that bridge ", "Tonight we're gonna party ", "As right ", "It's always darkest ", "Make hay ", 
   "You can lead a horse to water ", "You can't make an omelette ", "You can catch more flies with honey ", "Out of the frying pan ", "It's a poor workman ", "Shape up ", "Once bitten ",
   "Don't put all your eggs in one basket ", "Don't give up your day job ", "Do unto others ", "Look before you leap ", "Take a rain check ", "Take it with a grain of salt ",
-  "The early bird gets the worm ", "There are other fish in the sea "
+  "The early bird gets the worm ", "There are other fish in the sea ", "It's not rocket science ", "Bite the bullet "
   
 ];
 
-const secondStringArray = ["until ", "until ", "when ", "like ", "as ", "before ", "while ", "but ", "then ", "and ", "who ", "or ", "as "];
+const secondStringArray = ["until ", "until ", "when ", "like ", "as ", "before ", "while ", "but ", "then ", "and ", "who ", "or ", "as ", "but "];
 
-const thirdStringArray = ["they are hatched.", "the fat lady sings.", "we get to it.", "it's nineteen ninety nine.", "it's raining cats and dogs.", "it has it's dawn.", "the sun shines.", 
-  "you can't make it drink from it.", "you can catch with vinegar.", "it's into the frying pan.", "blames his tools.", "that ship has sailed.", "ship out.", "we see eye to eye.", "twice shy.", "on cloud nine.",
+const thirdStringArray = ["they are hatched.", "the fat lady sings.", "we get to it.", "it's nineteen ninety nine.", "it's raining cats and dogs.", "it has it's dawn.", "the sun shines on a dog's behind.", 
+  "you can't make it drink from it.", "you can catch with vinegar.", "it's into the frying pan.", "he blames his tools.", "that ship has sailed.", "ship out.", "we see eye to eye.", "twice shy.", "on cloud nine.",
   "no stone is unturned.", "you get a taste of your own medicine.", "you would have them do to you.", "it's a piece of cake.", "you go on a wild goose chase.", "you live and learn.",
-  "the ball is in your court.", "you spill the beans.", "rain on someone's parade.", "you throw caution to the wind."
+  "the ball is in your court.", "you spill the beans.", "it rains on someone's parade.", "you throw caution to the wind.", "you get cold feet.", "you have a bee in your bonnet.", "you get off on the wrong foot",
+  "you get your act together."
 ];
 
 
