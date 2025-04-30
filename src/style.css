@@ -1,99 +1,100 @@
 :root {
-  --color-400: hsl(228, 91%, 57%);
-  --color-300: hsl(45, 37%, 54%);
-  --color-200: hsl(45, 90%, 61%);
-  --color-600: hsl(228, 25%, 50%);
-  --color-700: hsl(44, 13%, 41%);
-  --color-800: hsl(228, 7%, 27%);
-
-  --ff-main: "Abril Fatface", serif;;
-  --ff-second: "Limelight", sans-serif;;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* General */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--color-800);
-  text-align: center;
-  color: var(--color-700);
-  font-family: var(--ff-second);
-  padding-block: 4rem;
-  font-size: 2.4rem;
-  text-shadow: 1.px 1.px 1px black;
-
-  height: 100vw;
-}
-
-h1 {
-  font-size: 5rem;
-  text-shadow: 2px 2px 1px black;
-  padding-block: 2rem;
-}
-
-/* utility */
-
-.wrapper {
-  margin-inline: auto;
-  padding-inline: 2rem;
-  flex-wrap: wrap;
-  align-content: center;
-  height: 50%;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-}
-
-/* layout */
-
-.card {
-  background-color: white;
-  width: 65%;
-  height: 35rem;
-  border-radius: 4px;
-  box-shadow: 3px 6px 1px black;
-  border: 1px solid black;
-}
-
-#border {
-  height: 100%;
-}
-
-@media only screen and (min-width: 600px) and (max-width: 1096px) {
-  h1 {
-
+    --color-400: hsl(228, 91%, 57%);
+    --color-300: hsl(45, 37%, 54%);
+    --color-200: hsl(45, 90%, 61%);
+    --color-600: hsl(228, 25%, 50%);
+    --color-700: hsl(44, 13%, 41%);
+    --color-800: hsl(228, 7%, 27%);
+  
+    --ff-main: "Abril Fatface", serif;;
+    --ff-second: "Limelight", sans-serif;;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
+  
+  /* General */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   body {
-    font-size: 2.2rem;
+    background-color: var(--color-800);
+    text-align: center;
+    color: var(--color-700);
+    font-family: var(--ff-second);
+    padding-block: 4rem;
+    font-size: 2.4rem;
+    text-shadow: 1.px 1.px 1px black;
+  
+    height: 100vw;
   }
-  .card {
-    width: 75%;
-    height: 38rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+  
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    text-shadow: 2px 2px 1px black;
+    padding-block: 2rem;
   }
-  body {
-    font-size: 2.1rem;
+  
+  /* utility */
+  
+  .wrapper {
+    margin-inline: auto;
+    padding-inline: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 50%;
   }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* layout */
+  
   .card {
-    height: 40rem;
-    width: 85%;
-    color: ;
+    background-color: white;
+    width: 65%;
+    height: 35rem;
+    border-radius: 4px;
+    box-shadow: 3px 6px 1px black;
+    border: 1px solid black;
   }
-}
+  
+  #border {
+    height: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 1096px) {
+    h1 {
+  
+    }
+    body {
+      font-size: 2.2rem;
+    }
+    .card {
+      width: 75%;
+      height: 38rem;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 4rem;
+    }
+    body {
+      font-size: 2.1rem;
+    }
+    .card {
+      height: 40rem;
+      width: 85%;
+      color: ;
+    }
+  }
+  
